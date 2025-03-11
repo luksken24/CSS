@@ -1,0 +1,58 @@
+/* üldine */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+.conteiner{
+    max-width: 1260px;
+    margin: auto;
+}
+
+/* Banner  */
+header{
+    display: flex;
+}
+
+.logo{
+    color: #fff;
+    background-color: #ff3600;
+    font-size: 35px;
+    padding: 25px 50px;
+}
+
+.menu{
+    background-color: #333;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.menu li{
+    line-height: 80px;
+    margin-left: 40px;
+
+}
+
+.menu a {
+    color: #fff;
+}
+
+.active{
+    color: #ff3600 !important;
+}
+
+/* sisu */
+
+.content{
+    display: flex;
+}
+
+
+/* jalus */
